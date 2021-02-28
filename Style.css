@@ -1,0 +1,126 @@
+.hlavicka {
+    padding: 150px 30px;
+    background-image: url(obrazek_hlavicka.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.menu {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    background-color: #282425;
+    position: sticky;
+    top: 0;
+}
+
+.menu li {
+    display: inline-block;
+}
+
+.menu a {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    padding: 20px 100px;
+    font-style: italic; 
+}
+
+.menu a:hover,
+.menu a:focus {
+    background-color: #5fcc49;
+}
+
+body {
+    color: #282425;
+    background-color: #fff1e6;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    line-height: 1.6;
+    margin: 0;
+}
+
+section {
+    padding: 40px 10%;
+    overflow: auto;
+}
+
+h1,
+h2,
+a {
+    color: #3b3938;
+}
+
+h1,
+h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h1 {
+    font-size: 100px;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.8);
+    margin: 0;
+}
+
+h2 {
+    font-size: 48px;
+    text-align: center;
+    margin-top: 0;
+}
+
+.foto-omne {
+    width: 200px;
+    border-radius: 50%;
+    float: left;
+    margin: 0 30px 30px 0;
+}
+
+.foto-zajmy {
+    width: 350px;
+    border-radius: 60px 60px 60px 60px;
+    float: right;
+    margin: 0 0 50px 30px;
+}
+
+.foto-kontakt {
+    width: 350px;
+    border-radius: 60px 60px 0 60px;
+    float: left;
+    margin: 0 30px 30px 0;
+}
+
+a {
+    font-weight: bold;
+}
+
+table {
+    border-spacing: 0;
+}
+
+th,
+td {
+    text-align: left;
+    border-bottom: 1px solid black;
+    padding: 10px 0;
+}
+
+.pracovni-pozice,
+.napln-prace {
+    text-align: left;
+    padding-left: 50px;
+}
+
+.pracovni-zkusenosti,
+.kontakt {
+    background-color: #dcfcc1;
+}
+
+.paticka {
+    background-color: #282425;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
